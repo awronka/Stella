@@ -11,7 +11,7 @@ function watchAndRebuild() {
 function watchAndRecompile() {
 	gulp.watch( './component/**/*', [ 'browserify' ] );
 	gulp.watch( [ './index.html', './index.js' ], [ 'through' ] );
-	gulp.watch( './style/**/*', [ 'less' ] );
+	gulp.watch( './style/**/*', [ 'sass' ] );
 }
 
 gulp.task( 'watch-all', function () {

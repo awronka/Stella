@@ -5,7 +5,7 @@ var NavBar = React.createClass( {
 	displayName: 'NavBar',
 	render: function() {
 		return (
-			<div>
+			<div class="test-nav">
 				<p>NavBar</p>
 			</div>
 		);
