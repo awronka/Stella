@@ -1,5 +1,5 @@
 var React = require( 'react' );
-var NavBar = require('../components/navbar.js');
+var NavBar = require('../components/navbar.jsx');
 var ChatRoom = require('../components/chat.js');
 
 var Main = React.createClass( {

@@ -1,7 +1,10 @@
+
+
+
 ( function () {
 	var React = require( 'react' ),
-		Main = require( './main/Main.js' ),
-		NavBar = require('./components/navbar.js');
+		Main = require( './main/Main.jsx' );
+		// NavBar = require('./components/navbar.jsx');
 	var remote = window.require( 'remote' );
 
 	window.React = React;
