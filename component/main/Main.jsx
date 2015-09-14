@@ -1,5 +1,5 @@
 var React = require( 'react' );
-var NavBar = require('../components/navbar.js');
+var NavBar = require('../components/navbar.jsx');
 
 var Main = React.createClass( {
 	displayName: 'Main',
