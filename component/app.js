@@ -8,5 +8,5 @@
 	var remote = window.require( 'remote' );
 
 	window.React = React;
-	React.render( <Main />, document.body );
+	React.render( <Main />, document.getElementById('attach-body') );
 } )();
