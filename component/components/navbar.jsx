@@ -4,7 +4,7 @@ var divStyle = {
   color: 'blue',
 };
 
-var containerStyle = {
+/*var containerStyle = {
 	display: 'flex',
 	flexDirection: 'column',
 	height: '400px'
@@ -32,22 +32,18 @@ var chatWindowStyle = {
 		width: '100%',
 		height: '10%',
 		backgroundColor: 'grey'
-}
+}*/
 
 var NavBar = React.createClass( {
 	displayName: 'NavBar',
 	
 	render: function() {
 		return (
-		<div style={containerStyle}>
-			<div style={navStyle}>
-				<p>NavBar</p>
-				  <a class="btn btn-primary" id="save">
-        <i class="fa fa-save fa-lg"></i> Save</a>
-			</div>
-		<div style={docWindowStyle}>Doc Window</div>
-		<div style={drawWindowStyle}>Draw Window</div>
-		<div style={chatWindowStyle}>chatWindow</div>
+		<div className='container-style'>
+		<div className="nav"><div className="profile-image"></div></div>
+		<div className="doc-window">Doc Window</div>
+		<div className="draw-window">Draw Window</div>
+		<div className="chat-window">chatWindow</div>
 		</div>
 		);
 	}
