@@ -12,10 +12,17 @@ body{
 	
 }
 
+<<<<<<< HEAD
+.container-style {
+	display: 'flex';
+	flex-direction: 'column';
+	height: '400px';
+=======
 .container {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
+>>>>>>> efc95b1e2d05bdce7a11c8e22dd04ed8a36ea139
 }
 
 
@@ -130,6 +137,10 @@ body{
 
 .chat-window {
   width: 100%;
+<<<<<<< HEAD
+  height: 100px;
+  background-color: grey; }
+=======
   height: 20%;
   text-align: center;
   background-color: white;
@@ -143,3 +154,4 @@ div > img {
   height : auto;
   max-width: 100%;
 }
+>>>>>>> efc95b1e2d05bdce7a11c8e22dd04ed8a36ea139
