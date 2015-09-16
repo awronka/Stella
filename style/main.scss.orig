@@ -1,0 +1,157 @@
+body{
+	color:black;
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	padding: 5px;
+    background: lightgrey;
+  font-family: Verdana;
+	
+}
+
+<<<<<<< HEAD
+.container-style {
+	display: 'flex';
+	flex-direction: 'column';
+	height: '400px';
+=======
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+>>>>>>> efc95b1e2d05bdce7a11c8e22dd04ed8a36ea139
+}
+
+
+.nav {
+  width: 100%;
+  height: 10%;
+  background-color: white; 
+  }
+ .heading{
+   text-align: right;
+   margin-left: 10%;
+   margin-top: 3%;
+   width: 68%;
+   float: left;
+   font-family: Verdana;
+   color: grey;
+   h1{
+     font-size: 20px;
+     small{
+       font-size: 12px;
+     }
+   }
+ }
+  
+.profile-image{
+    float: right;
+    width: 15%;
+    height: 80%;
+    margin-top: 1%;
+    margin-right: 5%;
+    background-color:white;
+    margin-bottom: 3%;
+    border: 1px solid white;
+  img{
+    float: right;
+  }
+  }  
+.title{
+  width: 96%;
+  text-align: center;
+  border: 2% solid white;
+  font-family: Verdana;
+  padding: 2%;
+  background-color: #F8F8F8;
+  color: grey;
+  font-weight: bold;
+  
+}
+.doc-window {
+  width: 100%;
+  height: 30%;
+  background-color: white; 
+  .doc-part-box{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    .chat-doc{
+      padding: 3%;
+      margin: auto;
+      width: 30%;
+      background-color: #F8F8F8;
+      height: 200px;
+      border: 1px solid black;
+      .expert-chat{
+        background-color: #CCFFFF;
+        padding: 2%;
+        border-radius: 10px;
+      }
+    }
+    .img-doc{
+      padding: 3%;
+      height: 200px;
+      margin: auto;
+      width: 45%;
+      background-color: #F8F8F8;
+      border: 1px solid black;
+    }
+    
+  }
+}
+
+.draw-window {
+  width: 100%;
+  height: 40%;
+  background-color: darkgrey; 
+  padding: 2%;
+ 
+  .draw-box{
+    float: left;
+    color: darkgrey;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+    height: 100%;
+    border-radius: 3px;
+    border: 2px solid lightgrey;
+    box-shadow: -5px 5px 3px #666666;
+  }
+  .tool-box{
+    float: right;
+    color: white;
+    margin-right: 5%;
+    text-align: center;
+    width: 20%;
+    background-color: darkgrey;
+    height: 100%;
+    border-radius: 3px;
+    border: 2px solid lightgrey;
+    box-shadow: -5px 5px 3px #666666;
+  }
+}
+
+.chat-window {
+  width: 100%;
+<<<<<<< HEAD
+  height: 100px;
+  background-color: grey; }
+=======
+  height: 20%;
+  text-align: center;
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+  box-shadow: -5px 5px 3px #666666;
+}
+
+div > img {
+  width: auto;
+  height : auto;
+  max-width: 100%;
+}
+>>>>>>> efc95b1e2d05bdce7a11c8e22dd04ed8a36ea139
